@@ -1,36 +1,27 @@
-# 📡 IoT Device Manager – CRUD Web App
+# 📡 IoT Device Manager
 
-Aplicación web moderna desarrollada con **JavaScript Vanilla**, **Bootstrap** y **Fetch API** que permite realizar operaciones **CRUD** (Create, Read, Update, Delete) sobre dispositivos IoT consumiendo una API REST creada en **MockAPI**.
-
-Este proyecto está orientado a la gestión básica de comandos y estados de dispositivos IoT, simulando el envío de direcciones de movimiento.
+Aplicación web CRUD para la gestión de dispositivos IoT, desarrollada con **JavaScript Vanilla**, **Bootstrap** y **Fetch API**, consumiendo una **API REST en MockAPI**.
 
 ---
 
-## 🚀 Características
+## 🚀 Funcionalidades
 
-- ✔ CRUD completo de dispositivos IoT  
-- ✔ Consumo de API REST con **Fetch + Async/Await**  
-- ✔ Interfaz moderna y responsiva con **Bootstrap 5**  
-- ✔ Separación por archivos (**HTML, CSS, JS**)  
-- ✔ Modo claro **Nuevo / Editar dispositivo**  
-- ✔ Mapeo de códigos de dirección a texto legible  
-- ✔ Código limpio y fácil de mantener  
+- Crear, listar, editar y eliminar dispositivos IoT
+- Consumo de API REST con Fetch + Async/Await
+- Interfaz moderna y responsiva con Bootstrap
+- Separación de archivos HTML, CSS y JS
+- Modo claro: Nuevo / Editar dispositivo
 
 ---
 
-## 🧱 Tecnologías utilizadas
+## 🧱 Tecnologías
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- Bootstrap 5  
-- Fetch API  
-- Async / Await  
-- MockAPI  
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Bootstrap 5
+- Fetch API
+- MockAPI
 
 ---
-
-## 🌐 API utilizada
-
-La aplicación consume la siguiente API REST:
 
