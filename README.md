@@ -30,7 +30,3 @@ Este proyecto está orientado a la gestión básica de comandos y estados de dis
 
 ---
 
-## 🌐 API utilizada
-
-La aplicación consume la siguiente API REST:
-
