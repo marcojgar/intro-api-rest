@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+#formTitle {
+  color: #2a5298;
+  font-weight: 600;
+}
+
+table {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+}

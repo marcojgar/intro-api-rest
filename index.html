@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>IoT Device Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container mt-5">
+
+  <h1 class="text-center mb-4">📡 IoT Device Manager</h1>
+
+  <!-- FORMULARIO -->
+  <div class="card shadow mb-4">
+    <div class="card-body">
+
+      <h5 id="formTitle" class="mb-3">➕ Nuevo dispositivo</h5>
+
+      <form id="deviceForm">
+        <input type="hidden" id="deviceId">
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Nombre del dispositivo</label>
+            <input
+              type="text"
+              id="deviceName"
+              class="form-control"
+              required
+            >
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Dirección</label>
+            <select
+              id="direccionCode"
+              class="form-select"
+              required
+            >
+              <option value="">Seleccione...</option>
+              <option value="1">Adelante</option>
+              <option value="2">Detener</option>
+              <option value="3">Atrás</option>
+              <option value="4">Vuelta derecha adelante</option>
+              <option value="5">Vuelta izquierda adelante</option>
+              <option value="6">Vuelta derecha atrás</option>
+              <option value="7">Vuelta izquierda atrás</option>
+              <option value="8">Giro 90° derecha</option>
+              <option value="9">Giro 90° izquierda</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mt-4 text-end">
+          <button type="submit" class="btn btn-primary">
+            💾 Guardar
+          </button>
+          <button type="reset" class="btn btn-secondary" onclick="newDevice()">
+            ❌ Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- TABLA -->
+  <div class="card shadow">
+    <div class="card-body">
+      <table class="table table-hover text-center align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>Dispositivo</th>
+            <th>Dirección</th>
+            <th>IP Cliente</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="deviceTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
