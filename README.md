@@ -1,27 +1,39 @@
 # 📡 IoT Device Manager
 
-Aplicación web CRUD para la gestión de dispositivos IoT, desarrollada con **JavaScript Vanilla**, **Bootstrap** y **Fetch API**, consumiendo una **API REST en MockAPI**.
+Aplicación web CRUD para la gestión de dispositivos IoT, desarrollada con **JavaScript Vanilla**, **Bootstrap** y **Fetch API**, consumiendo una **API REST creada en MockAPI**.
+
+El objetivo de la aplicación es simular la administración de dispositivos IoT, permitiendo enviar y registrar comandos de dirección de movimiento, así como visualizar el estado y la información asociada a cada dispositivo.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Crear, listar, editar y eliminar dispositivos IoT
-- Consumo de API REST con Fetch + Async/Await
-- Interfaz moderna y responsiva con Bootstrap
-- Separación de archivos HTML, CSS y JS
-- Modo claro: Nuevo / Editar dispositivo
+- Crear nuevos dispositivos IoT
+- Listar dispositivos registrados en tiempo real
+- Editar información de dispositivos existentes
+- Eliminar dispositivos con confirmación previa
+- Consumo de API REST utilizando **Fetch** y **Async/Await**
+- Interfaz moderna, intuitiva y responsiva con **Bootstrap**
+- Separación clara de responsabilidades (HTML, CSS y JavaScript)
+- Modo visible para **Nuevo dispositivo** y **Edición de dispositivo**
 
 ---
 
 ## 🧱 Tecnologías
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Bootstrap 5
-- Fetch API
-- MockAPI
+- **HTML5** – Estructura de la aplicación
+- **CSS3** – Estilos personalizados
+- **JavaScript (Vanilla)** – Lógica de negocio
+- **Bootstrap 5** – Diseño responsivo y moderno
+- **Fetch API** – Comunicación cliente-servidor
+- **Async / Await** – Manejo de operaciones asíncronas
+- **MockAPI** – Simulación de una API REST para dispositivos IoT
 
 ---
+
+## 🌐 API REST utilizada
+
+La aplicación consume la siguiente API REST:
+
+https://698a177bc04d974bc6a15352.mockapi.io/api/v1/dispositivos_IoT
 
